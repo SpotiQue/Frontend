@@ -1,0 +1,35 @@
+{
+  "name": "spotique",
+  "version": "1.0.0",
+  "description": "Frontend for SpotiQue application",
+  "main": "index.js",
+  "scripts": {
+    "serve": "./node_modules/.bin/webpack-dev-server --host 0.0.0.0 --colors -d",
+    "build": "./node_modules/.bin/webpack -p --progress --colors"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "bootstrap-sass": "^3.3.6",
+    "css-loader": "^0.23.1",
+    "es6-symbol": "^3.0.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "jquery": "^2.2.0",
+    "node-sass": "^3.4.2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "reconnectingwebsocket": "^1.0.0",
+    "sass-loader": "^3.1.2",
+    "sg-service-registry": "^0.1.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
